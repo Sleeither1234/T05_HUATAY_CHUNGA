@@ -1,0 +1,21 @@
+# BOLETA DE LA CEVIVHERIA
+nombre_de_la_comida=input("INGRESE EL NOMBRE DE LA COMIDA: ")
+P_U_1=float(input("INGRESE EL PRECIO DEL PLATO ESCOGIDO: "))
+nombre_de_la_bebida=input("INGRESE EL NOMBRE DE LA BEBIDA: ")
+P_U_2=float(input("INGRESE EL PRECIO DE LA BEBIDA"))
+unidades_1=int(input("INGRESA LAS UNIDADES DE LA COMIDA ELEGIDA: "))
+unidades_2=int(input("INGRESE EL NUMERO DE JARRAS DE CHICHA ORDENADAS: "))
+total=P_U_1*unidades_1+P_U_2*unidades_2
+
+print("#################################################")
+print("#           CEVICHERIA ´´DON JOSE´´             #")
+print("#")
+print("# TIPO DE COMIDA: "+nombre_de_la_comida)
+print("# NOMBRE DE LA BEBIDA: "+nombre_de_la_bebida)
+print("# PRECIO DE LA COMIDA: "+str(P_U_1))
+print("# PRECIO DE LA BEBIDA: "+str(P_U_2))
+print("# UNIDADES DE LA COMIDA: "+str(unidades_1))
+print("# UNIDADES DELA BEBIDA: "+str(unidades_2))
+print("# TOTAL A PAGAR: "+str(total))
+print("#")
+print("#################################################")

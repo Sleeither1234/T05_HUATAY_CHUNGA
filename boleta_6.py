@@ -1,0 +1,20 @@
+# BOLETA DE VENTA DE UTILES ESCOLARES
+producto_1=input("INGRESE EL NOMBRE DEL PRIMER PRODUCTO: ")
+producto_2=input("INGRESE EL NOMBRE DEL SEGUNDO PRODUCTO: ")
+P_U_1=float(input("INGRESA EL PRECIO DEL PRIMER PRODUCTO: "))
+P_U_2=float(input("INGRESA EL PRECIO DEL SEGUNDO PRODUCTO: "))
+unidades_1=int(input("INGRESA EL NUMERO DE UNIDADES DEL PRIMER PRODUCTO: "))
+unidades_2=int(input("INGRESA EL NUMERO DE UNIDADES DEL SEGUNDO PRODUCTO: "))
+TOTAL=P_U_1*unidades_1+P_U_2*unidades_2
+
+print("################################################################")
+print("#                   UTILES ESCOLARES                            ")
+print("# PRODUCTO 1: "+producto_1)
+print("# PRODUCTO 2: "+producto_2)
+print("# UNIDADES 1: "+str(unidades_1))
+print("# UNIDADES 2: "+str(unidades_2))
+print("# P.U.1: "+str(P_U_1))
+print("# P.U.2: "+str(P_U_2))
+print("# TOTAL: "+str(TOTAL))
+print("#")
+print("################################################################")
